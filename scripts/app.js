@@ -29,8 +29,6 @@ const updateUI = (data) => {
         card.classList.remove('d-none');
     }
 }
-
-
 cityForm.addEventListener('submit', e => {
     e.preventDefault();
     
