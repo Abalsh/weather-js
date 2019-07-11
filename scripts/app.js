@@ -14,6 +14,11 @@ const updateUI = (data) => {
         <span>${weather.Temperature.Metric.Value}</span>
         <span>&deg;C</span>
     </div>`
+
+    // remove d-none class from card when updating
+    if(card.classList.contains('d-none')){
+        card.classList.remove('d-none');
+    }
 }
 
 
